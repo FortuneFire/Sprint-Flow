@@ -1,27 +1,52 @@
-# Teamgenerator
+# SprintFlow 🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
+**Tagline:** *Plan, balance, and track your team’s sprints effortlessly.*
 
-## Development server
+![SprintFlow Logo](./assets/logo.png)  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+SprintFlow is a modern Angular application designed to help teams plan agile sprints by assigning members to balanced teams based on capacity and role. With a polished Angular Material UI, SCSS styling, and reusable component architecture, SprintFlow demonstrates professional front-end development skills and scalable design patterns.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- **Team Management**
+  - Add, edit, and remove team members
+  - Assign roles (Frontend, Backend, QA, Design)
+  - Set individual capacity (hours per sprint)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Task Management**
+  - Add and estimate sprint tasks
+  - Assign tasks to teams
 
-## Running unit tests
+- **Sprint Planning**
+  - Configure sprint name, duration, and number of teams
+  - Auto-generate balanced teams based on capacity and roles
+  - Track total capacity per team
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Drag & Drop**
+  - Reorder members within teams
+  - Move members between teams
 
-## Running end-to-end tests
+- **Persistence**
+  - Save sprint data to localStorage for future reference
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Responsive Angular Material UI**
+  - Modern cards, forms, buttons, tables, and snackbars
+  - Themeable SCSS variables for easy customization
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Tech Stack
+
+- Angular 17  
+- Angular Material  
+- SCSS (Sass)  
+- TypeScript  
+- RxJS  
+- LocalStorage for data persistence  
+
+---
+
+## Project Structure
+
