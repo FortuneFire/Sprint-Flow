@@ -49,7 +49,7 @@ SprintFlow is a modern Angular application designed to help teams plan agile spr
 ---
 
 ## Project Structure
-
+```bash
 src/
 ├── app/
 │ ├── core/
@@ -72,7 +72,7 @@ src/
 │ └── directives/
 └── assets/
 └── logo.png
-
+```
 
 ---
 
@@ -91,20 +91,22 @@ src/
 ```bash
 git clone https://github.com/your-username/sprint-flow.git
 cd sprint-flow
+
+```
 Install dependencies:
-
+```
 npm install
-
+```
 
 Run the development server:
-
+```
 ng serve
-
+```
 
 Open the app in your browser:
-
+```
 http://localhost:4200
-
+```
 Usage
 
 Add members using the Member Form (name, role, capacity).
