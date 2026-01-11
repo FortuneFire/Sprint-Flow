@@ -50,3 +50,72 @@ SprintFlow is a modern Angular application designed to help teams plan agile spr
 
 ## Project Structure
 
+src/
+├── app/
+│ ├── core/
+│ │ ├── models/ # Member, Team, Task, Sprint interfaces
+│ │ ├── services/ # SprintPlannerService, StorageService
+│ │ └── core.module.ts
+│ ├── features/
+│ │ └── sprint-planner/
+│ │ ├── sprint-planner.component.ts
+│ │ ├── components/
+│ │ │ ├── member-form/
+│ │ │ ├── task-form/
+│ │ │ ├── sprint-settings/
+│ │ │ ├── team-list/
+│ │ │ └── team-card/
+│ │ └── sprint-planner.module.ts
+│ └── shared/
+│ ├── components/ # Buttons, inputs
+│ ├── pipes/
+│ └── directives/
+└── assets/
+└── logo.png
+
+
+---
+
+## Screenshots
+
+![Team Card Example](./assets/screenshot-team-card.png)
+![Sprint Settings Form](./assets/screenshot-sprint-settings.png)
+![Member Form Example](./assets/screenshot-member-form.png)
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/sprint-flow.git
+cd sprint-flow
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+ng serve
+
+
+Open the app in your browser:
+
+http://localhost:4200
+
+Usage
+
+Add members using the Member Form (name, role, capacity).
+
+Configure sprint settings (name, duration, number of teams).
+
+Add tasks using the Task Form.
+
+Generate teams with Generate Teams button.
+
+Reorder members or move between teams using drag & drop.
+
+Save sprint to localStorage for later reference.
+
